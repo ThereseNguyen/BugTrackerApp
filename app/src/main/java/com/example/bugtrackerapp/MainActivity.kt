@@ -241,7 +241,7 @@ class MainActivity : AppCompatActivity() {
                         runOnUiThread {
                             Toast.makeText(
                                 this@MainActivity,
-                                "Network error. Bugs remain unsynced.",
+                                "Network error. Bugs remain unsynced. Please try again later.",
                                 Toast.LENGTH_LONG
                             ).show()
                         }
